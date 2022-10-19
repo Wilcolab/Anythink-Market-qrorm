@@ -21,12 +21,6 @@ After setting up docker on your machine. Run the command below to setup and run 
 ```
 
 ```
-If you encounter any issue, ensure that the package manager in the docker-compose yaml file is same with the one on your machine.
-
-For example, if you're using yarn, you don't have any issue. But if you're using npm, you may need to change the yarn in the docker-compose file to npm.
-
-### For package dependency issue with npm
-You would need to update the yaml file to take the flag --legacy-peer-deps for npm machine
-
+What to take note of, is that you must have docker properly installed and configured on your machine. With that you don't have any problem running the app.
 
 ```
