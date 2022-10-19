@@ -11,3 +11,22 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+### Tips for Smooth Running of the project
+
+After setting up docker on your machine. Run the command below to setup and run the project
+
+```
+ docker-compose up
+```
+
+```
+If you encounter any issue, ensure that the package manager in the docker-compose yaml file is same with the one on your machine.
+
+For example, if you're using yarn, you don't have any issue. But if you're using npm, you may need to change the yarn in the docker-compose file to npm.
+
+### For package dependency issue with npm
+You would need to update the yaml file to take the flag --legacy-peer-deps for npm machine
+
+
+```
