@@ -30,8 +30,6 @@ yarn-error.log*
 #IDEs
 /.idea/
 
-# PR Removals
+#PR Removals
 /backend/package-lock.json
-/backend/package.json
-/frontend/package.json
 /frontend/package-lock.json
